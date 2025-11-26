@@ -104,7 +104,7 @@
 									"});\r",
 									"\r",
 									"pm.response.json().accessToken;\r",
-									"pm.environment.set(\"access_token\", pm.response.json().accessToken);\r",
+									"pm.collectionVariables.set(\"access_token\", pm.response.json().accessToken);\r",
 									"\r",
 									""
 								],
@@ -1283,6 +1283,10 @@
 		{
 			"key": "clientemail",
 			"value": "client1762112877243@gmail.com"
+		},
+		{
+			"key": "access_token",
+			"value": ""
 		},
 		{
 			"key": "cartId",
